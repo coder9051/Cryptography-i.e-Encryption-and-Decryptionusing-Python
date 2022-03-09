@@ -11,6 +11,15 @@ I recently learned about cryptography and several encryption and decryption algo
      - [Asymmetric Encryption](#asymmetric-encryption)
      - [Hashing](#hashing)
   - [Decryption](#decryption)
+* [Installation](#installation)
+* [Encryption](#encryption)
+  - [Algorithm](#algorithm)
+  - [Python code](#python-code)
+* [Decryption](#decryption)
+  - [Algorithm](#algorithm)
+  - [Python code](#python-code)
+* [Conclusion](#conclusion)
+* [Contribution](#contribution)
 
 ## Cryptography
 
@@ -43,4 +52,9 @@ Hashing generates a unique signature of fixed length for a data set or message. 
 Decryption is a process of decoding the encoded data. Converting the ciphertext into plain text. This process requires a key that we used for encryption.
 
 ## Installation
+You require python IDE on your laptop/PC.
+
+## Encryption
+### Algorithm
+
 
