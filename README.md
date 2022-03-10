@@ -12,12 +12,8 @@ I recently learned about cryptography and several encryption and decryption algo
      - [Hashing](#hashing)
   - [Decryption](#decryption)
 * [Installation](#installation)
-* [Encryption](#encryption)
-  - [Algorithm](#algorithm)
-  - [Python code](#python-code)
-* [Decryption](#decryption)
-  - [Algorithm](#algorithm)
-  - [Python code](#python-code)
+* [Encryption Python Code](#encryption-python-code)
+* [Decryption Python Code](#decryption-python-code)
 * [Conclusion](#conclusion)
 * [Contribution](#contribution)
 
@@ -54,7 +50,28 @@ Decryption is a process of decoding the encoded data. Converting the ciphertext 
 ## Installation
 You require python IDE on your laptop/PC.
 
-## Encryption
-### Algorithm
+## Encryption Python Code
+The plain text character is traversed one at a time. Each letter of plain text is replaced by a letter with some fixed number of positions down with alphabet. After the steps is followed, a new string is generated which is referred as cipher text. This algorithm is known as "Caeser Cipher".
+```python
+# Create a function for Encryption algorithm
+def encrpyt_message(text, key):
+    encrypted_msg = "" # initially empty string is created
+    for char in text:
+    
+        if char.isupper(): # check character is uppercase
+            encrypted_msg += chr((((ord(char) + key) -65) % 26) + 65)
+
+        elif char.islower(): # checks character is  lowercase
+            encrypted_msg += chr((((ord(char) + key) -97) % 26) + 97)
+            
+        else:
+            encrypted_msg += char
+
+    return encrypted_msg
+```
+
+## Decryption Python Code
+
+
 
 
