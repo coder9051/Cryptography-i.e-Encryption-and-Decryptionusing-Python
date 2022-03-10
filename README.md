@@ -111,3 +111,9 @@ print("The Decrypted message is: ", decrpyted_message)
 ```
 
 ## Conclusion
+In a world where cybercrimes are on the rise, it’s comforting to know that there are as many methods available to protect network security as there are ways of trying to penetrate it. Here I have shown one of the method using its algorithm. There is already different packages available in python which can be used for this. The main objective of this project is to learn how to implement various algorithms in Python.
+
+## Contribution
+Pull requests are welcome. For major changes, please open and issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
