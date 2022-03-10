@@ -13,3 +13,11 @@ def encrpyt_message(text, key):
             encrypted_msg += char # Numbers, spaces and characters are added as it is.
 
     return encrypted_msg
+
+text = input("Please Enter your message: ") 
+key = int(input("Enter key value: "))
+
+print("Your message: ", text)
+
+encrpyted_message = encrpyt message(text, key)
+print("The Encrypted message is: ", encrpyted_message)
