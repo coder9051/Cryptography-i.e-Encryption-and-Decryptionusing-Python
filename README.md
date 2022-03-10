@@ -65,7 +65,7 @@ def encrpyt_message(text, key):
             encrypted_msg += chr((((ord(char) + key) -97) % 26) + 97)
             
         else:
-            encrypted_msg += char
+            encrypted_msg += char # Number, spaces and special charcters are added as it is.
 
     return encrypted_msg
 ```
