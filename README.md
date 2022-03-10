@@ -68,10 +68,23 @@ def encrpyt_message(text, key):
             encrypted_msg += char # Number, spaces and special charcters are added as it is.
 
     return encrypted_msg
+    
+text = input("Please Enter your message: ") 
+key = int(input("Enter key value: "))
+
+print("Your message: ", text)
+
+encrpyted_message = encrpyt message(text, key)
+
+print("The Encrypted message is: ", encrpyted_message)
 ```
 
 ## Decryption Python Code
+This code can only be used when we know key else we have try brute force method by trying for every key value. In this method we undo the previous code to get original message.
 
+```python
+
+```
 
 
 
