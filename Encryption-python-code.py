@@ -19,5 +19,5 @@ key = int(input("Enter key value: "))
 
 print("Your message: ", text)
 
-encrpyted_message = encrpyt message(text, key)
+encrpyted_message = encrpyt_message(text, key)
 print("The Encrypted message is: ", encrpyted_message)
